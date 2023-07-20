@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background: url("../Images/Main/Background_simple.jpg");
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 2  0px;
+    backdrop-filter: blur(1.5px);
+}
+.header_logo {
+    font-size: 150px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 700;
+    margin-left: 150px;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    margin-right: 150px;
+}
+.nav_link {
+    text-decoration: none;
+    transition: color 0.2s linear;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    background-color: #1b1d1d;
+    background-image: linear-gradient(90deg, #94242c, #1b4644);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+.Menu {
+    font-family: 'Amatic SC', cursive;
+}
+.Item{
+    width: 350px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 40px;
+    border-color: black;
+    border-width: 2px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+img {
+    border-radius: 40px;
+}
+.Info {
+    font-size: 25px;
+}
+.Category {
+    font-size: 60px;
+    margin: auto;
+    width: 50px;
+}
+.Price {
+    margin-top: 20px;
+    font-size: 40px;
+}
+.Name {
+    font-size: 40px;
+}
+
+.Catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+.AddToCart {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    height: 60px;
+    border-radius: 40px;
+
+}
+.AddToCart:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.4s;
+}
+.Cart {
+    border: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.CartWindow {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
